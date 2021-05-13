@@ -1,0 +1,143 @@
+body{
+  background:#e6edf7;
+}
+nav{
+  background: #4293eb;
+  padding: 30px;
+  display: flex;
+  position:fixed;
+
+
+
+}
+input{
+  font-size:20px;
+  border-radius:5px 0px 0px 5px;
+  border:2px white;
+  width:25%;
+  margin-left:30px;
+}
+input:hover{
+    box-shadow:0.5px 0.5px 2px 2px #8db8eb;
+}
+#search_button{
+   font-size:20px;
+   margin-left:0.5px;
+   background: white;
+   border:1px white;
+   color:#4293eb;
+   border-radius:0px 5px 5px 0px;
+}
+#search_button:hover{
+  border:1px #4293eb;
+  transform: scale(1.01);
+  box-shadow:0.5px 0.5px 2px 2px #8db8eb;
+}
+
+
+a{
+  color:white;
+  padding-right:30px;
+  font-size: 20px;
+  font-weight: bold;
+}
+a:hover{
+    text-decoration:none;
+    color:white;
+
+}
+
+.links{
+  margin-left: 35%;
+}
+
+.div_size{
+  height:450px;
+  width:300px;
+  background:white;
+  text-align:center;
+  border:2px solid;
+  border-radius:10px;
+  padding:10px 0px 10px 0px;
+  margin-bottom: 20px;
+}
+.image_size{
+  height: 270px;;
+    width:230px;
+}
+#container1{
+  padding-top: 120px;
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  justify-content:space-around;
+}
+
+p{
+  cursor:default;
+  font-size: 20px;
+  font-weight: bold;
+  color: black;
+
+}
+.price{
+   margin-top:10px;
+}
+.cart_button{
+  font-size:20px;
+  color:white;
+  font-weight: bold;
+  border:none;
+  background:#eba33f;
+  padding:10px;
+  width:60%;
+  margin-top:10px;
+  cursor: pointer;
+}
+.cart_button1{
+  font-size:20px;
+  color:white;
+  font-weight: bold;
+  border:none;
+  border-radius:5px 0px 0px 5px;
+  background:#eba33f;
+  padding:10px;
+  width:15%;
+  height: 50px;
+  margin-top:10px;
+  cursor: pointer;
+}
+.cart_button2{
+  font-size:20px;
+  color:white;
+  font-weight: bold;
+  border:none;
+  border-radius:0px 5px 5px 0px;
+  background:#eba33f;
+  padding:10px;
+  height: 50px;
+  width:15%;
+  margin-top:10px;
+  cursor: pointer;
+}
+.cart_button1:hover{
+    transform:scale(1.02);
+
+}
+.cart_button2:hover{
+    transform:scale(1.02);
+
+}
+.cart_div{
+  display: flex;
+  margin-left: 30.125px;
+  margin-bottom:10px;
+  width:90%;
+}
+.badge{
+  border-radius:50%;
+  border:2px solid #00409c;
+  background: #4c9aed;
+  font-weight: bold;
+  color:white;
+  font-size:16px;
+}
